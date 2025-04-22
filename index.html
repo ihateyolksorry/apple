@@ -1,0 +1,24 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>Apple Tree 🍎</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
+  <script src="sketchIndex.js"></script>
+</head>
+<body>
+  <audio id="bgm" src="music.mp3" autoplay loop></audio>
+  <div class="page-container">
+    <img src="1.jpg" alt="照片1" class="fullscreen-img" onclick="location.href='page2.html'" />
+    <div class="overlay-text">
+      <h1>Do you want to build an apple tree?</h1>
+      <p>🍎</p>
+      <p><em>Click to get some fresh apples →</em></p>
+    </div>
+    <button class="nav-button" onclick="location.href='page2.html'">🌱 →</button>
+  </div>
+</body>
+</html>
